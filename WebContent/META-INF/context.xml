@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Context>
     <Resource
-        name="jdbc/projectSite_DB"
+        name="jdbc/projectsite_db"
         auth="Container"
         type="javax.sql.DataSource"
         initialSize="10"
@@ -11,11 +11,11 @@
         username="root"
         password="root"
         driverClassName="com.mysql.jdbc.Driver"
-        url="jdbc:mysql://localhost:3306/projectSite_DB" />
+        url="jdbc:mysql://localhost:3306/projectsite_db" />
  
     <Realm
         className="org.apache.catalina.realm.DataSourceRealm"
-        dataSourceName="jdbc/projectSite"
+        dataSourceName="jdbc/projectsite_db"
         userTable="user"
         userNameCol="username"
         userCredCol="password"

@@ -22,7 +22,7 @@ public class ConnectionProvider {
                 Context initialContext = new InitialContext();
                 Context envContext = (Context) initialContext
                         .lookup("java:comp/env");
-                DataSource ds = (DataSource) envContext.lookup("jdbc/weekop_DB");
+                DataSource ds = (DataSource) envContext.lookup("jdbc/projectsite_db");
                 dataSource = ds;
             } catch (NamingException e) {
                 e.printStackTrace();
