@@ -11,10 +11,9 @@ Kody poszczególnych stron znajdują się w folderze "WebContent/WEB-INF/", kody
 komunikację z bazą danych znajdują się w folderze "src/com/projectsite" 
 
 W pakiecie "controller" znajdują się wszystkie servlety odpowiedziane za obsługę poszczególnych stron: głównej, logowania, 
-rejestracji oraz mechanizmu głosowania.
+rejestracji oraz mechanizmu głosowania. 
 Pakiet "dao" zawiera wszystkie klasy wg wzorca DAO odpowiadające za komunkację z bazą danych.
 W pakiecie "model" umieszczone są wszystkie klasy użytkownika, wrzuconego linku, oraz głosu.
 Klasy w pakiecie "service" pośredniczą między servletami a fabrykami DAO.
-
 Filtr zawarty w pakiecie "filter" sprawdza przed przejściem do każdej strony czy użytkownik się zalogował. Jeżeli tak, 
 zapisuje go na poziomie sesji, pobierając go z bazy danych.
