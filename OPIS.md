@@ -4,4 +4,4 @@ Rejestrowany użytkownik jest automatycznie logowany. Dodawanie treści oraz gł
 
 Do realizacji projektu wykorzystany został MySQL, Spring Framework JDBC oraz wzorzec DAO. Aplikacja uruchamiana jest na serwerze Tomcat.
 
-Kody poszczególnych stron znajdują się w folderze "WebContent/WEB-INF/", kody servletów i klas odpowiedzialnych za komunikację z bazą danych znajdują się w folderze "src/com/projectsite" 
+Kody poszczególnych stron znajdują się w folderze "WebContent/WEB-INF/", kody servletów i klas odpowiedzialnych za komunikację z bazą danych znajdują się w folderze "src/com/projectsite/" 
