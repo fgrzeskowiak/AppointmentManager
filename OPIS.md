@@ -21,3 +21,5 @@ Klasy w pakiecie "service" pośredniczą między servletami a fabrykami DAO.
 
 Filtr zawarty w pakiecie "filter" sprawdza przed przejściem do każdej strony czy użytkownik się zalogował. Jeżeli tak, 
 zapisuje go na poziomie sesji, pobierając go z bazy danych.
+
+Pakiet "util" zawiera klasę odpowiedzialną za tworzenie połączenie z bazą danych.
